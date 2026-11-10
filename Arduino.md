@@ -50,8 +50,8 @@ Los modelos más conocidos de Arduino son Arduino UNO R3, Arduino Mega 2560 y Ar
 | Reloj | 16 MHz | 16 MHz | 16 MHz |
 
 
-
 ## 2.5. ¿Para qué sirve Arduino?
+
 
 
 
