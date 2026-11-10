@@ -34,6 +34,21 @@ Con el tiempo, Arduino se hizo muy popular y empezó a utilizarse en escuelas, u
 
 ## 2.4. Modelos de Arduino
 
+## 2.4. ¿Qué modelos de Arduino hay?
+
+Los modelos más conocidos de Arduino son Arduino UNO R3, Arduino Mega 2560 y Arduino Leonardo. Cada modelo tiene diferentes características, como el número de pines, la memoria y el microcontrolador que utiliza.
+
+| Características | Arduino UNO R3 | Arduino Mega 2560 | Arduino Leonardo |
+|---|---|---|---|
+| Microcontrolador | ATmega328P | ATmega2560 | ATmega32U4 |
+| Voltaje de funcionamiento | 5 V | 5 V | 5 V |
+| Voltaje de entrada recomendado | 7–12 V | 7–12 V | 7–12 V |
+| Pines digitales | 14 | 54 | 20 |
+| Entradas analógicas | 6 | 16 | 12 |
+| Memoria Flash | 32 KB | 256 KB | 32 KB |
+| Memoria SRAM | 2 KB | 8 KB | 2,5 KB |
+| Reloj | 16 MHz | 16 MHz | 16 MHz |
+
 ## 2.5. ¿Para qué sirve Arduino?
 
 ## 2.6. ¿Qué lenguaje utiliza?
