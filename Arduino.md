@@ -9,8 +9,6 @@ desarrolladores. Hay muchos dispositivos que se pueden conectar a
 Arduino incluye sensores, luces, actuadores, plantillas y altavoces y otros
 más.
 
-<img width="1000" height="750" alt="image" src="https://github.com/user-attachments/assets/bd5ac391-2d3f-4a89-87b2-42cef153a6c7" />
-
 ## 2.2. ¿Cuáles son sus características más importantes?
 
 Las características más importantes de Arduino son:
