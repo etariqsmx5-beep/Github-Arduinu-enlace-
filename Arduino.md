@@ -11,23 +11,16 @@ más.
 
 <img width="1000" height="750" alt="image" src="https://github.com/user-attachments/assets/bd5ac391-2d3f-4a89-87b2-42cef153a6c7" />
 
-## 2.2. Características más importantes
+## 2.2. ¿Cuáles son sus características más importantes?
 
-Sus características más importantes incluyen :
+Las características más importantes de Arduino son:
 
-Entorno de Programación: Se puede instalar y ejecutar en sistemas operativos
-Windows, Mac OS y Linux.
-
-Hardware y Software Libre: Los esquemas de la placa son accesibles y de uso
-gratuito.
-Microcontroladores: Utiliza chips de la familia AVR para procesar información.
-Entorno de Programación (IDE)
-Pines de Entrada/Salida: Permiten las conexiones de sensores y actuadores.
-También incluye pines analógicos y digitales
-Alimentación y versatilidad : Funciona con USB 5V o una fuente externa de
-7-12V.
-Se puede usar la placa para diferentes proyectos.
-
+- **Fácil de programar:** Arduino utiliza un entorno de programación llamado Arduino IDE, que funciona en Windows, macOS y Linux.
+- **Hardware y software libre:** Sus diseños y herramientas son de código abierto, lo que permite estudiar, modificar y compartir proyectos.
+- **Microcontrolador:** Es el componente principal de la placa y se encarga de ejecutar las instrucciones del programa. El tipo de microcontrolador depende del modelo de Arduino.
+- **Pines de entrada y salida:** Permiten conectar sensores, botones, luces y motores. Dispone de pines digitales y entradas analógicas.
+- **Alimentación:** Algunas placas, como Arduino UNO R3, pueden funcionar mediante USB de 5 V o una fuente externa recomendada de 7 a 12 V.
+- **Versatilidad:** Se puede utilizar para crear muchos proyectos diferentes, como robots, alarmas o sistemas de iluminación automática.
 
 ## 2.3. Origen de Arduino
 
