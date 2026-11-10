@@ -1,30 +1,16 @@
-#  2. Investigar
+# 2. Investigación sobre Arduino
 
-##  2.1 ¿Qué es Arduino?
+## 2.1. ¿Qué es Arduino?
 
+## 2.2. ¿Cuáles son sus características más importantes?
 
+## 2.3. ¿Cuál es el origen de Arduino?
 
-## ¿Cuáles son sus características más importantes?
+## 2.4. ¿Qué modelos de Arduino existen?
 
+## 2.5. ¿Para qué sirve Arduino?
 
-## ¿Cuál es el origen de Arduino?
+## 2.6. ¿Qué lenguaje de programación utiliza Arduino?
 
-
-
-## ¿Qué modelos de Arduino hay? Haz una tabla donde especifiques para cada modelo: microcontrolador, voltaje, pines digitales, entradas analógicas, memoria, reloj.
-
-
-
-## ¿Para qué sirve un Arduino?
-
-
-
-## ¿Qué lenguaje utiliza?
-
-
-
-
-
-## ¿Qué es el Arduino IDE?
-
+## 2.7. ¿Qué es Arduino IDE?
       
