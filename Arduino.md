@@ -24,6 +24,14 @@ Las características más importantes de Arduino son:
 
 ## 2.3. Origen de Arduino
 
+#. ¿Cuál es el origen de Arduino?
+
+Arduino nació en el año 2005 en el Instituto de Diseño Interactivo de Ivrea, en Italia.
+
+Este proyecto surgió porque los estudiantes necesitaban una herramienta económica y fácil de utilizar para aprender electrónica y programación en las aulas.
+
+Con el tiempo, Arduino se hizo muy popular y empezó a utilizarse en escuelas, universidades y proyectos de robótica.
+
 ## 2.4. Modelos de Arduino
 
 ## 2.5. ¿Para qué sirve Arduino?
