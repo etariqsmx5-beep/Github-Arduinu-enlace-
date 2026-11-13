@@ -50,9 +50,33 @@ Los modelos más conocidos de Arduino son Arduino UNO R3, Arduino Mega 2560 y Ar
 
 ## 2.5. ¿Para qué sirve Arduino?
 
+Arduino sirve para crear proyectos electrónicos y controlar diferentes dispositivos mediante programación.
 
+Gracias a los **sensores**, puede recibir información del entorno, como la temperatura, la luz o el movimiento. Después, el **microcontrolador** procesa esa información y, mediante los **actuadores**, puede realizar acciones, como encender una luz o mover un motor.
 
+Arduino se utiliza en diferentes ámbitos:
 
-## 2.6. ¿Qué lenguaje utiliza?
+- **Proyectos personales:** creación de robots, luces decorativas y sistemas de automatización.
+- **Educación y prototipos:** permite aprender programación y electrónica y probar nuevas ideas.
+- **Industria y negocios:** se utiliza para desarrollar prototipos de sistemas de control, monitorizar procesos y recoger datos mediante sensores.
+
+**Ejemplo:** Arduino puede detectar cuando una habitación está oscura y encender automáticamente una luz.
+
+## 2.6. ¿Qué lenguaje utiliza Arduino?
+
+Arduino utiliza un lenguaje de programación basado en **C/C++**, que es relativamente fácil de aprender gracias a sus funciones y bibliotecas.
+
+Este lenguaje permite escribir instrucciones para controlar sensores, luces, motores y otros componentes electrónicos.
 
 ## 2.7. ¿Qué es Arduino IDE?
+
+Arduino IDE (Entorno de Desarrollo Integrado) es un software gratuito y de código abierto que permite escribir, compilar y cargar programas en las placas Arduino. También ofrece herramientas para detectar errores y depurar programas compatibles.
+
+Está compuesto por diferentes herramientas:
+
+- **Editor de código:** permite escribir y modificar el código fuente.
+- **Compilador:** convierte el código escrito en C/C++ en instrucciones que puede ejecutar el microcontrolador.
+- **Herramienta de carga:** permite enviar el programa compilado a la placa Arduino mediante USB.
+- **Depurador:** ayuda a detectar y corregir errores durante la ejecución, en placas compatibles.
+
+Arduino IDE es compatible con Windows, macOS y Linux.
