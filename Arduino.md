@@ -158,8 +158,9 @@ Arduino IDE nos permite escribir código, comprobar errores y cargar los program
 
 **Captura — Arduino IDE instalado**
 
-## <img width="959" height="506" alt="image" src="https://github.com/user-attachments/assets/ff8fbfa5-7478-49f7-97a0-a16dc99ab273" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ff8fbfa5-7478-49f7-97a0-a16dc99ab273" width="500" alt="Arduino IDE" />
+</p>
 
 ---
 
