@@ -441,7 +441,7 @@ Para hacer esta práctica he utilizado los siguientes materiales:
 
 #### 2.3. Diseño del circuito
 
-Aquí añadiré el esquema del circuito que voy a hacer en Draw.io.
+Aq-.....
 
 #### 2.4. Montaje en la protoboard
 
@@ -505,19 +505,28 @@ En este caso, el LED no necesita el programa de Arduino para encenderse, porque 
 
 Por eso, debería quedarse encendido y no parpadear.
 
-**Resultado de mi prueba:** Pendiente de comprobar.
+**Resultado de mi prueba:** Al final, he comprobado que ha quedado encendido y no parpadea.
 
 #### 2.7. Evidencias del montaje
 
-Aquí añadiré las fotografías del circuito y las capturas del programa.
+Aquí añadiré las fotografías del circuito.
 
 **Captura 1 — Materiales utilizados**
 
+
+
+<img width="3056" height="3056" alt="1000168127" src="https://github.com/user-attachments/assets/603dc198-5fa3-406f-ac98-596ed34c1fc4" />
+
 **Captura 2 — Conexión del LED**
+
+<img width="3056" height="3056" alt="1000166728" src="https://github.com/user-attachments/assets/cd6cfb45-74ce-4675-a579-180b9266fc38" />
 
 **Captura 3 — Código Blink**
 
+
 **Captura 4 — Funcionamiento del LED**
+
+https://github.com/user-attachments/assets/daf928c8-8511-45dc-a688-7976b78f56ce
 
 ---
 
