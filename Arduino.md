@@ -287,7 +287,8 @@ Esto significa que el programa se ha compilado y enviado correctamente a la plac
 
 **Captura — Programa cargado correctamente**
 
-*Aquí añadiré mi captura de Arduino IDE.*
+*<img width="759" height="416" alt="image" src="https://github.com/user-attachments/assets/0c5f0357-e5ca-45c4-819f-3a3f71beaa99" />
+*
 
 ---
 
