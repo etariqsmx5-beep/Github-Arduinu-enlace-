@@ -295,6 +295,7 @@ Esto significa que el programa se ha compilado y enviado correctamente a la plac
 
 ---
 
+
 ## A1
 ### Blink y Semáforo
 
@@ -302,17 +303,59 @@ Esto significa que el programa se ha compilado y enviado correctamente a la plac
 
 #### 1.1. Objetivo
 
+El objetivo de esta práctica es aprender a controlar el parpadeo de un LED utilizando la placa ESP32 y Arduino IDE.
+
+Con un programa, podemos hacer que el LED se encienda y se apague automáticamente.
+
 #### 1.2. Lista de componentes
+
+Para realizar esta práctica necesitamos:
+
+- **Placa Freenove ESP32-WROVER:** permite ejecutar el programa.
+- **Cable USB:** sirve para conectar la placa al ordenador, alimentarla y cargar el código.
+
 
 #### 1.3. Configuración de Arduino IDE
 
 ##### 1.3.1. Selección del modo de carga
 
+Para cargar el programa, primero he conectado la placa ESP32 al ordenador mediante un cable USB.
+
+Después, en Arduino IDE, he seleccionado el modelo de mi placa: **ESP32 Wrover Module**.
+
+Para enviar el código he utilizado la opción **Upload**.
+
 ##### 1.3.2. Selección del puerto serie
+
+Después de conectar la placa al ordenador, he entrado en `Tools > Port` y he seleccionado el puerto **COM3**.
+
+Este puerto permite la comunicación entre Arduino IDE y mi placa ESP32.
 
 ##### 1.3.3. Compilación y carga del programa
 
+Para comprobar y cargar el programa he seguido estos pasos:
+
+1. Abrir Arduino IDE.
+2. Seleccionar la placa ESP32 Wrover Module.
+3. Seleccionar el puerto COM3.
+4. Abrir el programa Blink.
+5. Pulsar **Verify** para comprobar si el código tiene errores.
+6. Pulsar **Upload** para enviar el programa a la placa.
+7. Comprobar que el programa se ha cargado correctamente.
+
+---
+
 #### 1.4. Control y solución de incidencias técnicas
+
+Para evitar problemas durante las prácticas, es importante tomar algunas precauciones:
+
+- **Desconectar el cable USB:** antes de colocar o cambiar LEDs, resistencias o cables jumper en la protoboard.
+- **Revisar las conexiones:** comprobar que cada cable esté conectado en el lugar correcto.
+- **Comprobar la polaridad del LED:** identificar correctamente la pata positiva (+) y la negativa (−).
+- **Utilizar resistencias:** para limitar la corriente y evitar dañar los LEDs.
+- **Comprobar la placa y el puerto:** verificar que hemos seleccionado el modelo ESP32 Wrover Module y el puerto COM correspondiente.
+
+Estas precauciones nos ayudan a evitar errores de conexión y posibles daños en los componentes.
 
 #### 1.5. Preguntas
 
