@@ -285,7 +285,9 @@ Esto significa que el programa se ha compilado y enviado correctamente a la plac
 *Aquí añadiré mi captura de Arduino IDE.*
 
 ---
-[↑ Volver al índice](https://github.com/etariqsmx5-beep/Github-Arduinu-enlace-/blob/main/Arduino.md#2-%C3%ADndice-general)
+
+[↑ Volver al índice](#2-índice-general)
+
 ---
 
 ## A1
