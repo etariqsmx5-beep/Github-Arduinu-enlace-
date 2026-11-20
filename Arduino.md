@@ -513,8 +513,6 @@ Aquí añadiré las fotografías del circuito.
 
 **Captura 1 — Materiales utilizados**
 
-
-
 <img width="3056" height="3056" alt="1000168127" src="https://github.com/user-attachments/assets/603dc198-5fa3-406f-ac98-596ed34c1fc4" />
 
 **Captura 2 — Conexión del LED**
@@ -698,9 +696,6 @@ https://github.com/user-attachments/assets/42677446-6aaa-4988-a1eb-3cb9592470c9
 
 <img width="802" height="800" alt="1000168124" src="https://github.com/user-attachments/assets/d054bfb7-1382-4d4d-b23f-661d281955ce" />
 
-
-
-### 4. Webgrafía
 
 [↑ Volver al índice](#2-índice-general)
 
