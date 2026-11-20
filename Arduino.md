@@ -373,19 +373,19 @@ https://github.com/user-attachments/assets/42677446-6aaa-4988-a1eb-3cb9592470c9
 #### 3.9. Evidencias
 
 
-<img width="1000" height="1000" alt="1000168107" src="https://github.com/user-attachments/assets/92316690-c512-4f63-bd02-4c9fce3bbe46" />
+<img width="800" height="800" alt="1000168107" src="https://github.com/user-attachments/assets/92316690-c512-4f63-bd02-4c9fce3bbe46" />
 
 
 
-<img width="1000" height="1000" alt="1000168116" src="https://github.com/user-attachments/assets/ebd81404-f170-4290-bc85-d187399888bf" />
+<img width="800" height="800" alt="1000168116" src="https://github.com/user-attachments/assets/ebd81404-f170-4290-bc85-d187399888bf" />
 
 
 
-<img width="1000" height="1000" alt="1000166728" src="https://github.com/user-attachments/assets/e3119db0-c2ac-45f8-9bbb-2f37d0631ae6" />
+<img width="800" height="800" alt="1000166728" src="https://github.com/user-attachments/assets/e3119db0-c2ac-45f8-9bbb-2f37d0631ae6" />
 
 
 
-<img width="1002" height="1000" alt="1000168124" src="https://github.com/user-attachments/assets/d054bfb7-1382-4d4d-b23f-661d281955ce" />
+<img width="802" height="800" alt="1000168124" src="https://github.com/user-attachments/assets/d054bfb7-1382-4d4d-b23f-661d281955ce" />
 
 
 
