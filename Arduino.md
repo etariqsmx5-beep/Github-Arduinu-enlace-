@@ -185,9 +185,7 @@ Esto me ha permitido comunicar Arduino IDE con el ESP32 y cargar los programas.
 
 **Captura — Comprobación del puerto USB**
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/ff8fbfa5-7478-49f7-97a0-a16dc99ab273" width="500" alt="Administrador de dispositivos" />
-</p>
+<img width="481" height="406" alt="image" src="https://github.com/user-attachments/assets/e267a7f7-f7f2-484f-bdcc-a7ec841f78ff" />
 
 ---
 
