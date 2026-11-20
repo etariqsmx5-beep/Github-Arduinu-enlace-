@@ -558,7 +558,8 @@ Para montar el semáforo he utilizado estos materiales:
 
 #### 3.3. Diseño del circuito en Draw.io
 
-Aquí añadiré el diseño de mi semáforo realizado en Draw.io.
+<img width="531" height="282" alt="image" src="https://github.com/user-attachments/assets/6c8ea9af-1579-4428-a2cb-0107c5191144" />
+
 
 #### 3.4. Conexiones de la protoboard
 
