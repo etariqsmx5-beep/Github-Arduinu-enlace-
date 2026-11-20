@@ -5,6 +5,12 @@
 
 ## 1. Presentación
 
+En este cuaderno voy a guardar las actividades que realizamos en clase de Arduino.
+
+Aquí explicaré lo que he aprendido, los pasos que he seguido, los códigos utilizados y los resultados de cada práctica.
+
+También añadiré capturas de pantalla, imágenes, vídeos, esquemas de los circuitos y los errores que he encontrado durante las actividades.
+
 ## 2. Índice general
 
 ### Actividades
