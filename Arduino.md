@@ -214,7 +214,6 @@ Este paquete permite programar diferentes placas ESP32 desde Arduino IDE.
 
 <img width="517" height="430" alt="image" src="https://github.com/user-attachments/assets/63660ce0-3470-4eab-aaef-b0527036e0c2" />
 
-
 ---
 
 #### 4.3. Selección de la placa ESP32
@@ -369,7 +368,21 @@ En este vídeo muestro el funcionamiento del semáforo que he montado con la pla
 
 https://github.com/user-attachments/assets/42677446-6aaa-4988-a1eb-3cb9592470c9
 
+
+
 #### 3.9. Evidencias
+
+<img width="1719" height="3056" alt="1000168107" src="https://github.com/user-attachments/assets/92316690-c512-4f63-bd02-4c9fce3bbe46" />
+
+
+<img width="3056" height="3056" alt="1000168116" src="https://github.com/user-attachments/assets/ebd81404-f170-4290-bc85-d187399888bf" />
+
+
+<img width="3056" height="3056" alt="1000166728" src="https://github.com/user-attachments/assets/e3119db0-c2ac-45f8-9bbb-2f37d0631ae6" />
+
+
+<img width="1922" height="3047" alt="1000168124" src="https://github.com/user-attachments/assets/d054bfb7-1382-4d4d-b23f-661d281955ce" />
+
 
 ### 4. Webgrafía
 
