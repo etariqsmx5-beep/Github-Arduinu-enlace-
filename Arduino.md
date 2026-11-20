@@ -130,24 +130,164 @@ Arduino IDE es compatible con Windows, macOS y Linux.
 
 ---
 
-
 ### 3. Instalación de Arduino IDE
 
 #### 3.1. Descarga de Arduino IDE
 
+Para descargar Arduino IDE, he entrado en la página oficial de Arduino:
+
+https://www.arduino.cc/en/software
+
+He seleccionado la versión para Windows y he descargado el programa.
+
+La versión que he utilizado es **Arduino IDE 2.3.11**.
+
 #### 3.2. Instalación en el equipo
+
+Después de descargar Arduino IDE, he seguido estos pasos:
+
+1. Abrir el archivo descargado.
+2. Seguir las instrucciones de instalación.
+3. Aceptar los permisos necesarios.
+4. Completar la instalación.
+5. Abrir Arduino IDE para comprobar que funciona.
+
+En el enunciado se pide instalar el programa en la partición **D:** del ordenador del aula.
+
+Arduino IDE nos permite escribir código, comprobar errores y cargar los programas en la placa ESP32.
+
+**Captura — Arduino IDE instalado**
+
+*Aquí añadiré mi captura de Arduino IDE abierto.*
+
+---
 
 ### 4. Puesta a punto de Arduino IDE
 
 #### 4.1. Comprobación del controlador CH343
 
+En el enunciado se menciona el controlador CH343, que sirve para comunicar determinadas placas ESP32 con el ordenador mediante USB.
+
+En mi caso, he utilizado la placa **Freenove ESP32-WROVER**.
+
+Para comprobar la conexión USB:
+
+1. He conectado la placa al ordenador mediante USB.
+2. He abierto el Administrador de dispositivos de Windows.
+3. He comprobado el apartado de puertos COM.
+4. He identificado el puerto correspondiente a mi placa.
+
+Mi placa se ha reconocido mediante el puerto **COM3**.
+
+Esto me ha permitido comunicar Arduino IDE con el ESP32 y cargar los programas.
+
+**Captura — Comprobación del puerto USB**
+
+*Aquí añadiré mi captura.*
+
+---
+
 #### 4.2. Configuración del entorno de Arduino
+
+Para poder programar mi placa ESP32, he instalado el paquete correspondiente en Arduino IDE.
+
+He seguido estos pasos:
+
+1. Abrir Arduino IDE.
+2. Entrar en `File > Preferences`.
+3. Buscar `Additional Boards Manager URLs`.
+4. Añadir el siguiente enlace:
+
+`https://espressif.github.io/arduino-esp32/package_esp32_index.json`
+
+5. Guardar los cambios.
+6. Abrir `Boards Manager`.
+7. Buscar `esp32`.
+8. Instalar `esp32 by Espressif Systems`.
+9. Esperar a que termine la instalación.
+
+Este paquete permite programar diferentes placas ESP32 desde Arduino IDE.
+
+**Captura — Instalación de ESP32**
+
+*Aquí añadiré mi captura de Boards Manager.*
+
+---
 
 #### 4.3. Selección de la placa ESP32
 
+Después de instalar el paquete ESP32, he seleccionado la placa que estoy utilizando.
+
+He seguido estos pasos:
+
+1. Abrir Arduino IDE.
+2. Entrar en `Tools > Board`.
+3. Buscar las placas ESP32.
+4. Seleccionar `ESP32 Wrover Module`.
+
+**Mi placa:** Freenove ESP32-WROVER.
+
+**Modelo seleccionado:** ESP32 Wrover Module.
+
+Es importante seleccionar correctamente la placa para poder cargar los programas sin errores.
+
+**Captura — Selección de ESP32 Wrover Module**
+
+*Aquí añadiré mi captura.*
+
+---
+
 #### 4.4. Comprobación del puerto USB
 
+Después de configurar la placa, he comprobado que Arduino IDE reconoce el puerto USB.
+
+He seguido estos pasos:
+
+1. Conectar el ESP32 al ordenador.
+2. Abrir Arduino IDE.
+3. Entrar en `Tools > Port`.
+4. Seleccionar `COM3`.
+
+En mi caso, he utilizado el puerto **COM3** para comunicar el ordenador con el ESP32.
+
+**Captura — Puerto COM3**
+
+*Aquí añadiré mi captura.*
+
+---
+
 #### 4.5. Verificación del funcionamiento
+
+Por último, he comprobado que Arduino IDE funciona correctamente y que puedo cargar programas en mi placa ESP32.
+
+He seguido estos pasos:
+
+1. Abrir Arduino IDE.
+2. Seleccionar `ESP32 Wrover Module`.
+3. Seleccionar el puerto `COM3`.
+4. Abrir el programa de prueba.
+5. Pulsar `Verify` para comprobar el código.
+6. Pulsar `Upload` para cargarlo en el ESP32.
+7. Esperar a que termine la carga.
+
+En mi caso, el programa se ha compilado y cargado correctamente.
+
+Arduino IDE ha mostrado los siguientes mensajes:
+
+- `Done compiling`
+- `Done uploading`
+- `Hard resetting via RTS pin`
+
+Esto significa que el programa se ha compilado y enviado correctamente a la placa ESP32.
+
+**Captura — Programa cargado correctamente**
+
+*Aquí añadiré mi captura de Arduino IDE.*
+
+---
+
+[↑ Volver al índice](https://github.com/etariqsmx5-beep/Github-Arduinu-enlace-/blob/main/Arduino.md#2-%C3%ADndice-general)
+
 
 [↑ Volver al índice](#2-índice-general)
 
