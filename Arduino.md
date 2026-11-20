@@ -152,13 +152,14 @@ Después de descargar Arduino IDE, he seguido estos pasos:
 4. Completar la instalación.
 5. Abrir Arduino IDE para comprobar que funciona.
 
-En el enunciado se pide instalar el programa en la partición **D:** del ordenador del aula.
+He instalado el programa en la partición **D:** del ordenador del aula.
 
 Arduino IDE nos permite escribir código, comprobar errores y cargar los programas en la placa ESP32.
 
 **Captura — Arduino IDE instalado**
 
-*Aquí añadiré mi captura de Arduino IDE abierto.*
+## <img width="959" height="506" alt="image" src="https://github.com/user-attachments/assets/ff8fbfa5-7478-49f7-97a0-a16dc99ab273" />
+
 
 ---
 
