@@ -619,7 +619,7 @@ void loop() {
 
 ### Captura de código Semáforo:
 
-<img width="659" height="539" alt="image" src="https://github.com/user-attachments/assets/121103b1-5017-4c0e-b209-7b2190cf7f23" />
+<img width="859" height="539" alt="image" src="https://github.com/user-attachments/assets/121103b1-5017-4c0e-b209-7b2190cf7f23" />
 
 
 ### ¿Cómo funciona mi código?
