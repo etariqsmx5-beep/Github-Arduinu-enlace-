@@ -361,49 +361,303 @@ Estas precauciones nos ayudan a evitar errores de conexión y posibles daños en
 
 ##### 1.5.1. Información sobre el LED azul que parpadea
 
+En el manual de Freenove se explica que el LED azul de la placa ESP32-S3 está conectado al pin GPIO2.
+
+Con el programa Blink podemos hacer que este LED se encienda y se apague cada segundo.
+
+En mi caso, he utilizado una placa ESP32-WROVER, que es diferente a la del manual.
+
 ##### 1.5.2. ¿Qué son void setup() y void loop()?
 
-##### 1.5.3. ¿Qué significa la línea #define LED_BUITIN 2?
+Son dos funciones que utilizamos cuando programamos en Arduino.
+
+- **void setup():** se ejecuta una sola vez cuando encendemos la placa. Sirve para preparar los pines que vamos a utilizar.
+- **void loop():** se repite todo el tiempo mientras la placa está encendida. Aquí ponemos las instrucciones que queremos que se repitan.
+
+Por ejemplo, en el programa Blink, `loop()` hace que el LED se encienda y se apague continuamente.
+
+##### 1.5.3. ¿Qué significa la línea #define LED_BUILTIN 2?
+
+Esta línea sirve para darle un nombre al pin número 2.
+
+```cpp
+#define LED_BUILTIN 2
+```
+
+En vez de escribir el número 2 cada vez, podemos utilizar `LED_BUILTIN` en nuestro código.
+
+Así es más fácil entender qué pin estamos utilizando.
 
 ##### 1.5.4. ¿Qué significa delay(1000);?
 
+La función `delay()` sirve para hacer una pausa en el programa.
+
+El número 1000 significa 1000 milisegundos, que es lo mismo que un segundo.
+
+Por ejemplo:
+
+- `delay(1000);` = 1 segundo.
+- `delay(2000);` = 2 segundos.
+- `delay(3000);` = 3 segundos.
+
+En Blink, utilizamos esta función para dejar el LED encendido un segundo y apagado otro segundo.
+
 ##### 1.5.5. Funciones utilizadas en el script
+
+| Función | ¿Para qué sirve? |
+|---|---|
+| `#define` | Para dar un nombre a un valor. |
+| `void setup()` | Para preparar los pines al iniciar. |
+| `void loop()` | Para repetir las instrucciones. |
+| `pinMode()` | Para indicar si un pin es de entrada o salida. |
+| `digitalWrite()` | Para encender o apagar el LED mediante un pin. |
+| `HIGH` | Para poner el pin en nivel alto. |
+| `LOW` | Para poner el pin en nivel bajo. |
+| `delay()` | Para esperar un tiempo antes de continuar. |
+
+**Referencia:** https://www.arduino.cc/reference/en/
+
+---
 
 ### 2. Práctica 1 — LED
 
 #### 2.1. Objetivo
 
+En esta práctica vamos a aprender a conectar un LED a la placa ESP32 utilizando una protoboard y algunos cables.
+
+La idea es conseguir que el LED se encienda y se apague utilizando un programa de Arduino.
+
 #### 2.2. Componentes necesarios
+
+Para hacer esta práctica he utilizado los siguientes materiales:
+
+- **ESP32-WROVER:** es la placa que vamos a programar.
+- **GPIO Extension Board:** nos facilita conectar los cables.
+- **Protoboard:** sirve para colocar los componentes.
+- **LED rojo:** es la luz que queremos encender.
+- **Resistencia de 220 Ω:** sirve para proteger el LED.
+- **Cables jumper:** sirven para conectar los componentes.
+- **Cable USB:** conecta el ESP32 al ordenador.
 
 #### 2.3. Diseño del circuito
 
+Aquí añadiré el esquema del circuito que voy a hacer en Draw.io.
+
 #### 2.4. Montaje en la protoboard
 
+Para montar el circuito, primero desconecto la placa ESP32 del ordenador para evitar problemas al colocar los componentes.
+
+Después sigo estos pasos:
+
+1. Coloco el LED rojo en la protoboard.
+2. Compruebo cuál es la pata positiva y cuál es la negativa.
+3. Coloco una resistencia de 220 Ω.
+4. Conecto el LED al pin GPIO2 utilizando la resistencia.
+5. Conecto la pata negativa del LED a GND.
+6. Reviso que los cables estén bien colocados.
+7. Conecto otra vez la placa al ordenador mediante USB.
+
+Una vez conectado todo, ya puedo cargar el programa en Arduino IDE.
+
 #### 2.5. Código Blink
+
+Para hacer que el LED parpadee, utilizamos este código:
+
+```cpp
+#define LED_BUILTIN 2
+
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000);
+
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(1000);
+}
+```
+
+Este programa hace que el LED se encienda durante un segundo y después se apague durante otro segundo.
+
+Como está dentro de `void loop()`, se repite continuamente.
 
 #### 2.6. Preguntas
 
 ##### 2.6.1. ¿Qué ocurre al conectar el jumper del pin 2 a 5V?
 
+Si conectamos el LED a la alimentación de 5 V, manteniendo la resistencia y la conexión a GND, debería quedarse encendido todo el tiempo.
+
+Esto pasa porque ahora recibe electricidad directamente y ya no depende de las instrucciones del programa.
+
+Por eso, en lugar de parpadear, el LED debería permanecer encendido.
+
+**Resultado de mi prueba:** Pendiente de comprobar.
+
+**Importante:** antes de mover los cables debemos desconectar el USB. No hay que conectar 5 V directamente a un pin GPIO del ESP32.
+
 ##### 2.6.2. ¿Qué ocurre al conectar los jumpers a los polos de la pila?
 
+Si conectamos el LED al positivo y al negativo de una pila de 5 V, con la resistencia colocada correctamente, debería encenderse.
+
+En este caso, el LED no necesita el programa de Arduino para encenderse, porque recibe la electricidad directamente de la pila.
+
+Por eso, debería quedarse encendido y no parpadear.
+
+**Resultado de mi prueba:** Pendiente de comprobar.
+
 #### 2.7. Evidencias del montaje
+
+Aquí añadiré las fotografías del circuito y las capturas del programa.
+
+**Captura 1 — Materiales utilizados**
+
+**Captura 2 — Conexión del LED**
+
+**Captura 3 — Código Blink**
+
+**Captura 4 — Funcionamiento del LED**
+
+---
 
 ### 3. Práctica 2 — Semáforo
 
 #### 3.1. Objetivo
 
+En esta práctica vamos a construir un semáforo con tres LED utilizando la placa ESP32.
+
+La idea es conseguir que las luces se enciendan una detrás de otra, sin que estén encendidas al mismo tiempo.
+
+Para hacerlo vamos a utilizar una protoboard, resistencias, cables y un programa en Arduino IDE.
+
 #### 3.2. Componentes necesarios
+
+Para montar el semáforo he utilizado estos materiales:
+
+| Componente | Cantidad |
+|---|---|
+| ESP32-WROVER | 1 |
+| GPIO Extension Board | 1 |
+| Protoboard | 1 |
+| LED rojo | 1 |
+| LED azul | 1 |
+| LED verde | 1 |
+| Resistencias de 220 Ω | 3 |
+| Cables jumper | Varios |
+| Cable USB | 1 |
+
+**Nota:** En mi montaje he utilizado un LED azul en lugar del amarillo, aunque en la actividad se pide utilizar rojo, amarillo y verde.
 
 #### 3.3. Diseño del circuito en Draw.io
 
+Aquí añadiré el diseño de mi semáforo realizado en Draw.io.
+
 #### 3.4. Conexiones de la protoboard
+
+Para montar el semáforo he colocado los tres LED en la protoboard y los he conectado a diferentes pines de la placa ESP32.
+
+Cada LED tiene una resistencia de 220 Ω para evitar que pase demasiada corriente.
+
+He utilizado los siguientes pines:
+
+- **GPIO2:** LED rojo.
+- **GPIO13:** LED azul.
+- **GPIO14:** LED verde.
+
+### Tabla de conexiones
+
+| Conexión | Rojo | Azul | Verde |
+|---|---|---|---|
+| Pata larga (+) | J40 | J45 | J50 |
+| Pata corta (−) | J41 | J46 | J51 |
+| Resistencia 220 Ω | F40–F43 | F45–F48 | F50–F53 |
+| Cable GPIO en protoboard | G43 | G48 | G53 |
+| Pin GPIO | GPIO2 | GPIO13 | GPIO14 |
+| Cable GND en protoboard | G41 | G46 | G51 |
+| Conexión a tierra | GND | GND | GND |
+
+Estas son las posiciones que he utilizado como referencia para conectar los componentes de mi semáforo.
 
 #### 3.5. Código Arduino del semáforo
 
+Después de conectar los LED, he utilizado este código para controlar las luces:
+
+```cpp
+#define LED_ROJO 2
+#define LED_AZUL 13
+#define LED_VERDE 14
+
+void setup() {
+  pinMode(LED_ROJO, OUTPUT);
+  pinMode(LED_AZUL, OUTPUT);
+  pinMode(LED_VERDE, OUTPUT);
+}
+
+void loop() {
+  // LED ROJO - 3 segundos
+  digitalWrite(LED_ROJO, HIGH);
+  digitalWrite(LED_AZUL, LOW);
+  digitalWrite(LED_VERDE, LOW);
+  delay(3000);
+
+  // LED AZUL - 3 segundos
+  digitalWrite(LED_ROJO, LOW);
+  digitalWrite(LED_AZUL, HIGH);
+  digitalWrite(LED_VERDE, LOW);
+  delay(3000);
+
+  // LED VERDE - 1 segundo
+  digitalWrite(LED_ROJO, LOW);
+  digitalWrite(LED_AZUL, LOW);
+  digitalWrite(LED_VERDE, HIGH);
+  delay(1000);
+
+  digitalWrite(LED_VERDE, LOW);
+}
+```
+
+### ¿Cómo funciona mi código?
+
+Primero se enciende el LED rojo durante 3 segundos.
+
+Después se apaga el rojo y se enciende el azul durante otros 3 segundos.
+
+Por último, se apaga el azul y se enciende el verde durante 1 segundo.
+
+Cuando termina, vuelve a empezar desde el rojo.
+
+| LED | Tiempo |
+|---|---|
+| Rojo | 3 segundos |
+| Azul | 3 segundos |
+| Verde | 1 segundo |
+
+Así consigo que las luces se enciendan por turnos y no todas a la vez.
+
 #### 3.6. Montaje del circuito
 
-#### 3.7. Comprobación del funcionamiento
+Para montar mi semáforo, primero he desconectado el cable USB de la placa ESP32.
+
+Después he seguido estos pasos:
+
+1. He colocado los tres LED en la protoboard.
+2. He comprobado las patas positivas y negativas de cada LED.
+3. He colocado una resistencia de 220 Ω para cada LED.
+4. He conectado los cables a los pines GPIO2, GPIO13 y GPIO14.
+5. He conectado las patas negativas de los LED a GND.
+6. He revisado que los cables estuvieran bien conectados.
+7. He conectado la placa al ordenador con el cable USB.
+8. He abierto Arduino IDE.
+9. He seleccionado `ESP32 Wrover Module` y el puerto `COM3`.
+10. He pulsado `Verify` para comprobar el código.
+11. Después he pulsado `Upload` para cargarlo en la placa.
+
+Al principio tuve que revisar algunas conexiones porque los LED no funcionaban como esperaba.
+
+Después de corregir los cables y comprobar el código, conseguí que los tres LED se encendieran uno detrás de otro.
+
+Para comprobarlo, también he grabado un vídeo donde se puede ver el funcionamiento del semáforo.
 
 #### 3.8. Vídeo personal de la práctica
 
