@@ -236,7 +236,8 @@ Es importante seleccionar correctamente la placa para poder cargar los programas
 
 **Captura — Selección de ESP32 Wrover Module**
 
-*Aquí añadiré mi captura.*
+*<img width="570" height="450" alt="image" src="https://github.com/user-attachments/assets/ff06c4c8-57a7-4e02-bb81-bcddacad1028" />
+*
 
 ---
 
