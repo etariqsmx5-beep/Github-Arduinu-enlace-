@@ -256,7 +256,8 @@ En mi caso, he utilizado el puerto **COM3** para comunicar el ordenador con el E
 
 **Captura — Puerto COM3**
 
-*Aquí añadiré mi captura.*
+*<img width="287" height="225" alt="image" src="https://github.com/user-attachments/assets/6ffbaefc-023c-44b5-a7e8-3bd06c907289" />
+*
 
 ---
 
