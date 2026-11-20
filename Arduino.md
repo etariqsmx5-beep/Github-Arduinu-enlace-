@@ -365,6 +365,10 @@ Esto significa que el programa se ha compilado y enviado correctamente a la plac
 
 #### 3.8. Vídeo personal de la práctica
 
+En este vídeo muestro el funcionamiento del semáforo que he montado con la placa ESP32. Los tres LED se encienden uno detrás de otro.
+
+https://github.com/user-attachments/assets/42677446-6aaa-4988-a1eb-3cb9592470c9
+
 #### 3.9. Evidencias
 
 ### 4. Webgrafía
