@@ -212,7 +212,8 @@ Este paquete permite programar diferentes placas ESP32 desde Arduino IDE.
 
 **Captura — Instalación de ESP32**
 
-*Aquí añadiré mi captura de Boards Manager.*
+<img width="517" height="430" alt="image" src="https://github.com/user-attachments/assets/63660ce0-3470-4eab-aaef-b0527036e0c2" />
+
 
 ---
 
