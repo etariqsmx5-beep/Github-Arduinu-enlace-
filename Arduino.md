@@ -526,7 +526,9 @@ Aquí añadiré las fotografías del circuito.
 
 **Captura 4 — Funcionamiento del LED**
 
-https://github.com/user-attachments/assets/daf928c8-8511-45dc-a688-7976b78f56ce
+
+https://github.com/user-attachments/assets/48c9a594-656d-4e4d-be16-7d4a82ece9f9
+
 
 ---
 
