@@ -441,7 +441,8 @@ Para hacer esta práctica he utilizado los siguientes materiales:
 
 #### 2.3. Diseño del circuito
 
-Aq-.....
+<img width="553" height="317" alt="image" src="https://github.com/user-attachments/assets/f4af9899-f579-49a3-bf7a-a72fc341ae1b" />
+
 
 #### 2.4. Montaje en la protoboard
 
