@@ -522,6 +522,7 @@ Aquí añadiré las fotografías del circuito.
 
 **Captura 3 — Código Blink**
 
+<img width="959" height="496" alt="image" src="https://github.com/user-attachments/assets/19e6754b-f71f-401a-aba1-8cee7201be8d" />
 
 **Captura 4 — Funcionamiento del LED**
 
