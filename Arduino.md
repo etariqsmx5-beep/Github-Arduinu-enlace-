@@ -90,7 +90,7 @@ Los modelos más conocidos de Arduino son Arduino UNO R3, Arduino Mega 2560 y Ar
 
 Arduino sirve para crear proyectos electrónicos y controlar diferentes dispositivos mediante programación.
 
-Gracias a los **sensores**, puede recibir información del entorno, como la temperatura, la luz o el movimiento. Después, el **microcontrolador** procesa esa información y, mediante los **actuadores**, puede realizar acciones, como encender una luz o mover un motor.
+Con los **sensores**, puede recibir información del entorno, como la temperatura, la luz o el movimiento. Después, el **microcontrolador** procesa esa información y, mediante los **actuadores**, puede realizar acciones, como encender una luz o mover un motor.
 
 Arduino se utiliza en diferentes ámbitos:
 
